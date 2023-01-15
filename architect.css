@@ -336,8 +336,8 @@ a {
     }
 
     .feature__text,
-    .feature__item,
-    .footer__section {
+    .feature__item
+     {
         width: 360px;
     }
 
