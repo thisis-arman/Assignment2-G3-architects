@@ -47,7 +47,7 @@ ul li>a {
 
 .section__container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -200,6 +200,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
 }
 
 .facts__box {
@@ -218,6 +219,12 @@ a {
     font-size: 40px;
     font-weight: 700;
 }
+.facts__box:hover{
+    background-color: #FF900E;
+    transition: .5s;
+    transform: scale(1.1);
+    color: white;
+}
 
 .facts__box p {
     font-size: 20px;
@@ -233,6 +240,7 @@ a {
 
 .logos img {
     width: 10%;
+    filter: grayscale(1);
 }
 
 .logos {
@@ -251,7 +259,30 @@ a {
     justify-content: center;
     height: 50px;
     background-color: #ff900e1a;
-    ;
     margin: 50px;
 
 }
+.hide{
+    display: none;
+}
+/* media quaries  */
+
+@media only screen and (max-width:576px) {
+
+    .features ,
+    .more__features__section ,
+    .fact__boxes{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .feature__text ,.feature__item,.footer__section{
+        width: 380px;
+    }
+}   .bedi__manus img {
+    width: 90%;
+    max-width: 380px;
+    max-height: 500px;
+    padding: 0 0 0 20px;
+    height: 90%;
+}
+
