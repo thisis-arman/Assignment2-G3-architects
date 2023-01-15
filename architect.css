@@ -318,7 +318,8 @@ a {
     nav,ul,.features,
     .more__features__section,
     .fact__boxes,
-    .reasons {
+    .reasons
+    {
         flex-direction: column;
         padding: 0px 20px;
     }
@@ -326,8 +327,6 @@ a {
     nav {
         margin: 10px 0;
     }
-
-
     header {
         padding: 10px 20px;
     }
