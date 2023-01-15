@@ -342,20 +342,19 @@ a {
     }
 
     .architect__image  {
-        max-width: 360px;
-        max-height: 500px;
+        max-width: 344px;
+        max-height: 485px;
         margin-top: 150px;
         margin-right: 20px;
 
     }
     .architect__image img {
         width: 110%;
-        /* padding: 0 0 0 20px; */
         height: 80%;
     }
 
     .experience__box {
-        top: 0;
+        top: 60px;
         left: 130px;
 
     }
