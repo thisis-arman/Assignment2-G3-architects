@@ -7,6 +7,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     /* padding: 0 100px; */
+    /* background-color: green; */
 }
 
 header {
@@ -257,9 +258,10 @@ a {
 /* footer footer foooter  */
 
 .footer__section {
-    display: flex;
+    text-align: center;
+    display: flex; 
     align-items: center;
-    justify-content: center;
+     justify-content: center;
     height: 50px;
     background-color: #ff900e1a;
     margin: 50px;
@@ -276,14 +278,17 @@ a {
     .more__features__section ,
     .fact__boxes{
         flex-direction: column;
-        padding: 0 20px;
+        padding: 0px 20px;
+    }
+    header{
+        padding: 10px 20px;
     }
     .feature__text ,.feature__item,.footer__section{
-        width: 380px;
+        width: 360px;
     }
     .bedi__manus img {
         width: 90%;
-        max-width: 380px;
+        max-width: 360px;
         max-height: 500px;
         padding: 0 0 0 20px;
         height: 90%;
