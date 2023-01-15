@@ -133,6 +133,9 @@ a {
     margin-top: 100px;
 
 }
+.more__features__section {
+    max-height: 1600px;
+}
 
 .feature__item {
     height: 980px;
@@ -268,7 +271,7 @@ a {
 /* media quaries  */
 
 @media only screen and (max-width:576px) {
-
+    nav,
     .features ,
     .more__features__section ,
     .fact__boxes{
